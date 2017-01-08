@@ -1,0 +1,47 @@
+body {
+  background: aliceblue;
+}
+
+pre {
+  font-size: 1em;
+  background: white;
+}
+
+.drop-box {
+  background: #F8F8F8;
+  border: 3px dashed #DDD;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.dragover {
+  border: 3px dashed blue;
+}
+
+.DOTRender {
+  border:1px solid darkgray;
+}
+
+.DOTRender svg {
+  width: 100%;
+  height: 100%;
+}
+
+.DOTRender.zoom {
+}
+
+.DOTRender.zoom svg {
+  width: initial;
+  height: initial;
+}
+
+.zoom-ul-button {
+  position: absolute;
+  z-index: 100;
+}
+
+.btn-group-block {
+  width: 100%;
+}
+
