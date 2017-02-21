@@ -77,7 +77,7 @@ export default class MainController {
   }
 
   loadClass(classId, ontol) {
-    var url = 'http://api.monarchinitiative.org/api/ontol/subgraph/'+ontol+'/'+classId+'?relation=subClassOf&relation=BFO%3A0000050'
+    var url = 'https://api.monarchinitiative.org/api/ontol/subgraph/'+ontol+'/'+classId+'?relation=subClassOf&relation=BFO%3A0000050'
     var that = this;
     this.$http.get(url, {withCredentials: false}).then(      
         function(result) {
